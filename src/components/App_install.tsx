@@ -1,4 +1,4 @@
-const App_install = ({ activeStep }) => {
+const App_install = () => {
   const cards = [
     {
       step: "01",
@@ -40,7 +40,7 @@ const App_install = ({ activeStep }) => {
               </div>
 
               {/* Card Box */}
-              <div className="bg-gray-100  py-10 rounded-xl shadow-lg text-center w-full mt-6">
+              <div className="bg-gray-100 py-10 rounded-xl shadow-lg text-center w-full mt-6">
                 <h2 className="text-xl font-bold text-gray-800 mb-2">{card.title}</h2>
                 <p className="text-gray-700 font-medium">{card.description}</p>
               </div>

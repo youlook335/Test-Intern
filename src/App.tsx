@@ -13,7 +13,7 @@ function App() {
     <Hero/>
     <Feature/>
     <About/>
-    <App_install activeStep={0}/>
+    <App_install/>
     <Donate/>
     <Rating/>
     <Footer/>
