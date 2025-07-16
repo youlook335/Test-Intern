@@ -1,5 +1,6 @@
 import About from "./components/About"
 import App_install from "./components/App_install"
+import Donate from "./components/Donate"
 import Feature from "./components/Feature"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
@@ -13,6 +14,7 @@ function App() {
     <Feature/>
     <About/>
     <App_install activeStep={0}/>
+    <Donate/>
     <Rating/>
     <Footer/>
     </>
